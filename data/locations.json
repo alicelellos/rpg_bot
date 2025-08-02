@@ -1,0 +1,269 @@
+{
+  "locations": {
+    "cities": [
+      {
+        "name": "Чёрный Бастион",
+        "description": "Мрачная крепость, возвышающаяся над утёсами. Её чёрные стены, политые дождями и кровью столетий, внушают страх даже самым храбрым воинам. Узкие улочки города петляют между высокими домами с остроконечными крышами.",
+        "districts": ["Крепость", "Рыночная площадь", "Порт", "Трущобы"],
+        "services": ["blacksmith", "tavern", "temple", "market"],
+        "type": "city",
+        "connections": ["district:Крепость", "district:Рыночная площадь", "district:Порт", "district:Трущобы"],
+        "features": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      },
+      {
+        "name": "Серебряная Гавань",
+        "description": "Богатый портовый город с белоснежными зданиями и высокими маяками. В гавани покачиваются десятки кораблей под флагами разных королевств. Воздух пропитан запахом соли, рыбы и дорогих специй.",
+        "districts": ["Доки", "Торговая миля", "Аристократический квартал", "Сады Элизии"],
+        "services": ["shipyard", "tavern", "market", "bathhouse"],
+        "type": "city",
+        "connections": ["district:Доки", "district:Торговая миля", "district:Аристократический квартал", "district:Сады Элизии"],
+        "features": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      },
+      {
+        "name": "Стальной Город",
+        "description": "Индустриальный центр с дымящимися кузницами и грохочущими молотами. Улицы вымощены булыжником, а воздух наполнен запахом угля и раскалённого металла. Здесь создаётся лучшее оружие королевства.",
+        "districts": ["Кузнечный квартал", "Рабочие бараки", "Торговая площадь", "Казармы"],
+        "services": ["blacksmith", "armorer", "tavern", "market"],
+        "type": "city",
+        "connections": ["district:Кузнечный квартал", "district:Рабочие бараки", "district:Торговая площадь", "district:Казармы"],
+        "features": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      }
+    ],
+    "villages": [
+      {
+        "name": "Дубровка",
+        "description": "Небольшая деревушка среди дубовых рощ. Дымок из труб деревянных домов стелется над покосившимися заборами. Местные живут за счёт леса и небольшой мельницы на реке.",
+        "places": ["Таверна 'Старый Дуб'", "Мельница", "Лесная сторожка"],
+        "services": ["tavern", "mill"],
+        "type": "village",
+        "connections": ["place:Таверна 'Старый Дуб'", "place:Мельница", "place:Лесная сторожка"],
+        "features": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      },
+      {
+        "name": "Каменный Брод",
+        "description": "Деревня у древнего каменного моста через реку. Здесь останавливаются путешественники и торговцы, следующие по королевской дороге. В центре деревни бьёт чистый родник.",
+        "places": ["Таверна 'Каменный Мост'", "Конюшни", "Торговая лавка"],
+        "services": ["tavern", "stable", "shop"],
+        "type": "village",
+        "connections": ["place:Таверна 'Каменный Мост'", "place:Конюшни", "place:Торговая лавка"],
+        "features": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      }
+    ],
+    "taverns": [
+      {
+        "name": "Пьяный дракон",
+        "description": "Шумная таверна с низкими потолками, пропахшими дымом и пивом. В углу слепой старик играет на лютне, а за столиками сидят подозрительные типы всех мастей. На стенах - ржавое оружие и голова дракона (скорее всего поддельная).",
+        "services": ["food", "drink", "lodging", "gossip"],
+        "type": "tavern",
+        "connections": [],
+        "features": ["bar", "tables", "hearth", "private_rooms"],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      },
+      {
+        "name": "Тихий угол",
+        "description": "Уютное заведение с камином и полками старых книг. Здесь подают отличный эль и жареного кролика с травами. Место встречи местных мудрецов и путешественников.",
+        "services": ["food", "drink", "lodging", "information"],
+        "type": "tavern",
+        "connections": [],
+        "features": ["bar", "tables", "hearth", "private_rooms"],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      }
+    ],
+    "wilderness": [
+      {
+        "name": "Лес Тёмных Корней",
+        "description": "Густой древний лес с высокими деревьями, чьи корни уходят глубоко под землю. Воздух наполнен ароматом хвои и влажного мха. Здесь легко заблудиться, а в глубине водятся опасные существа.",
+        "features": ["Старая дорога", "Заброшенная хижина", "Охотничьи тропы", "Руины башни"],
+        "type": "wilderness",
+        "connections": [],
+        "services": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      },
+      {
+        "name": "Солёные Болота",
+        "description": "Обширные заболоченные земли, где солёная вода смешивается с пресной. Воздух наполнен запахом гниющей растительности и морской соли. Здесь живут лишь самые выносливые существа.",
+        "features": ["Рыбацкие тропы", "Затонувшие лодки", "Солёные источники", "Гниющие руины"],
+        "type": "wilderness",
+        "connections": [],
+        "services": [],
+        "characters": [],
+        "items": [],
+        "terrain": {},
+        "positions": {}
+      }
+    ]
+  },
+  "location_classes": {
+    "WorldLocation": {
+      "methods": {
+        "add_character": {
+          "description": "Добавляет персонажа в локацию",
+          "parameters": ["character", "position"]
+        },
+        "remove_character": {
+          "description": "Удаляет персонажа из локации",
+          "parameters": ["character"]
+        },
+        "move_character": {
+          "description": "Перемещает персонажа в новую позицию",
+          "parameters": ["character", "new_position"]
+        },
+        "get_character_position": {
+          "description": "Возвращает позицию персонажа или None",
+          "parameters": ["character"]
+        },
+        "get_characters_at": {
+          "description": "Возвращает всех персонажей на указанной позиции",
+          "parameters": ["position"]
+        },
+        "add_item": {
+          "description": "Добавляет предмет в локацию",
+          "parameters": ["item", "position"]
+        },
+        "remove_item": {
+          "description": "Удаляет предмет из локации",
+          "parameters": ["item"]
+        },
+        "generate_terrain": {
+          "description": "Генерирует местность для локации",
+          "parameters": []
+        },
+        "describe_terrain_at": {
+          "description": "Возвращает описание местности в указанной позиции",
+          "parameters": ["position"]
+        },
+        "get_other_characters": {
+          "description": "Возвращает всех персонажей в локации, кроме указанного",
+          "parameters": ["exclude"]
+        },
+        "describe": {
+          "description": "Генерирует описание локации",
+          "parameters": ["observer", "detailed"]
+        },
+        "render_map": {
+          "description": "Генерирует изображение карты локации",
+          "parameters": ["highlight"]
+        },
+        "save": {
+          "description": "Сохраняет локацию в файл",
+          "parameters": []
+        }
+      }
+    },
+    "GameWorld": {
+      "methods": {
+        "_setup_world": {
+          "description": "Инициализирует игровой мир",
+          "parameters": []
+        },
+        "add_character": {
+          "description": "Добавляет персонажа в указанную локацию",
+          "parameters": ["character", "location_name", "position"]
+        },
+        "move_character": {
+          "description": "Перемещает персонажа в новую локацию",
+          "parameters": ["character", "new_location_name"]
+        },
+        "find_character": {
+          "description": "Находит персонажа по ID",
+          "parameters": ["char_id"]
+        },
+        "find_location": {
+          "description": "Находит локацию по имени",
+          "parameters": ["loc_name"]
+        },
+        "save": {
+          "description": "Сохраняет состояние мира",
+          "parameters": []
+        },
+        "load": {
+          "description": "Загружает состояние мира",
+          "parameters": []
+        }
+      }
+    }
+  },
+  "location_templates": {
+    "city": {
+      "terrain_types": ["street", "building", "alley", "plaza", "fountain"],
+      "default_terrain": "street"
+    },
+    "village": {
+      "terrain_types": ["path", "house", "field", "well", "square"],
+      "default_terrain": "path"
+    },
+    "tavern": {
+      "terrain_types": ["table", "bar", "hearth", "staircase", "private_room"],
+      "default_terrain": "table"
+    },
+    "wilderness": {
+      "terrain_types": ["tree", "bush", "path", "stream", "clearing"],
+      "default_terrain": "ground"
+    }
+  },
+  "terrain_descriptions": {
+    "street": "мощёная улица",
+    "building": "здание",
+    "alley": "тёмный переулок",
+    "plaza": "городская площадь",
+    "fountain": "фонтан",
+    "tree": "дерево",
+    "bush": "куст",
+    "path": "узкая тропинка",
+    "stream": "ручей",
+    "clearing": "поляна",
+    "table": "деревянный стол",
+    "bar": "барная стойка",
+    "hearth": "камин",
+    "staircase": "лестница",
+    "private_room": "отдельная комната",
+    "ground": "земля"
+  },
+  "terrain_colors": {
+    "street": [100, 100, 100],
+    "building": [70, 70, 70],
+    "alley": [60, 60, 60],
+    "plaza": [120, 120, 100],
+    "fountain": [100, 100, 150],
+    "tree": [0, 80, 0],
+    "bush": [0, 60, 0],
+    "path": [120, 100, 50],
+    "stream": [70, 70, 150],
+    "clearing": [110, 110, 50],
+    "table": [120, 80, 40],
+    "bar": [120, 90, 50],
+    "hearth": [150, 70, 40],
+    "staircase": [100, 80, 60],
+    "private_room": [80, 60, 40],
+    "ground": [80, 60, 30]
+  }
+}
